@@ -36,7 +36,7 @@ class Scraper
       end
     student[:profile_quote] = profile_page.css("div.profile-quote").text if profile_page.css("div.profile-quote")
     binding.pry 
-    student[:bio] = profile_page.css("div.bio-content .content-holder .description-holder").text
+    student[:bio] = profile_page.css("div.bio-content.content-holder div.description-holder p").text
     end
     student
   end
