@@ -42,7 +42,6 @@ class Scraper
 
 end
 
-
 # if attributes
 #       attributes.each do |key, value|
 #         self.send("#{key}=", value)
