@@ -21,7 +21,7 @@ class Scraper
     #returns hash where key/value pairs describe individual student
     profile_page = Nokogiri::HTML(open(profile_url))
     binding.pry
-    # profile_page.css("div.social-icon-container").children.css("a")
+    # profile_page.css("div.social-icon-container").children.css("a").attribute("href).value.map {|link| link}
     #   
   end
 
