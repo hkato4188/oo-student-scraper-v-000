@@ -24,7 +24,7 @@ class Scraper
     links = profile_page.css("div.social-icon-container").children.css("a").map{|link| link.("href").value}
     
     binding.pry   
-  
+    puts "end"
   end
 
 end
