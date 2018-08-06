@@ -25,9 +25,9 @@ class Scraper
     links = profile_page.css("div.social-icon-container").children.css("a").map{|link| link.attribute("href").value}
     binding.pry
     links.each do |link|
-      link.include?("twitter")
-      link.include?("twitter")
-      link.include?("twitter")
+      link.include?("twitter")? 
+      link.include?("linkedin")?
+      link.include?("github")?
   end
 
 end
