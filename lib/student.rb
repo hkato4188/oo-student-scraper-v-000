@@ -13,6 +13,10 @@ class Student
 
   def self.create_from_collection(students_array)
     binding.pry
+    student.arary.each do |student|
+      student = Student.new
+      
+    
   end
 
   def add_student_attributes(attributes_hash)
