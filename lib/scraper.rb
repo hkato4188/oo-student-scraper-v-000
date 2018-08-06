@@ -34,7 +34,8 @@ class Scraper
       else
         studernt[:blog] = link
       end
-    
+    student[:profile_quote] = 
+    student[:bio] =
     
     end
     student
