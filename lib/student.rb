@@ -13,7 +13,7 @@ class Student
 
   def self.create_from_collection(students_array)
     # binding.pry
-    student.arary.each do |student|
+    student_arary.each do |student|
       student = Student.new
     end      
   end
