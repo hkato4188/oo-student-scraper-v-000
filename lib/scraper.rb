@@ -26,6 +26,8 @@ class Scraper
     binding.pry
     links.each do |link|
       link.include?("twitter")
+      link.include?("twitter")
+      link.include?("twitter")
   end
 
 end
