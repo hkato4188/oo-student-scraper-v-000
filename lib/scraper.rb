@@ -32,6 +32,7 @@ class Scraper
       elsif link.include?("github") 
         student[:github] = link
       else
+        studernt[:blog] = link
       end
     
     
