@@ -6,13 +6,12 @@ class Student
 
   def initialize(student_hash)
     binding.pry
+    student_hash.each do |k, v|
+      self.send("#{k}="), v)
+    end
   end
 
-# if attributes
-#       attributes.each do |key, value|
-#         self.send("#{key}=", value)
-#       end
-#     end
+
 
 
 
