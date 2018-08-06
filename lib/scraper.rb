@@ -39,7 +39,6 @@ class Scraper
     end
     student
   end
-
 end
 
 # if attributes
