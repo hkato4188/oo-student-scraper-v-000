@@ -5,8 +5,17 @@ class Student
   @@all = []
 
   def initialize(student_hash)
-    
+    binding.pry
   end
+
+# if attributes
+#       attributes.each do |key, value|
+#         self.send("#{key}=", value)
+#       end
+#     end
+
+
+
 
   def self.create_from_collection(students_array)
     
