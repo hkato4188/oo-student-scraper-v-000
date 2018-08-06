@@ -22,7 +22,7 @@ class Scraper
     
     profile_page = Nokogiri::HTML(open(profile_url))
     links = profile_page.css("div.social-icon-container").children.css("a").map{|link| link.("href").value}
-    
+    puts "end"
     binding.pry   
     puts "end"
   end
