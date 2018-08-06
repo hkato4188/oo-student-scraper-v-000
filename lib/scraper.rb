@@ -24,6 +24,7 @@ class Scraper
     binding.pry
     profile_page.css("div.social-icon-container a").map do |info|
       info.include?("twitter")? 
+    end
   end
 
 end
