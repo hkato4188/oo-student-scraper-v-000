@@ -20,11 +20,9 @@ class Scraper
   def self.scrape_profile_page(profile_url)
     #returns hash where key/value pairs describe individual student
     profile_page = Nokogiri::HTML(open(profile_url))
-    
     binding.pry
-    profile_page.css("div.social-icon-container a").map do |info|
-      info.include?("twitter")? 
-    end
+    # profile_page.css("div.social-icon-container a").map do |info|
+    #   info.include?("twitter")? 
   end
 
 end
